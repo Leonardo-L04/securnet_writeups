@@ -23,7 +23,7 @@ All I got that was new was a new error code :')
 ![example](https://github.com/Leonardo-L04/securnet_writeups/blob/main/img/4.png)
 
 Then after trying to run fuzzing tools and analyzing the website with burpsuite, I went back to read the challenge.
-That's when I searched for the word "Epoch". Since my main language is not english I had to search it and I found this:
+That's when I searched for the word "Epoch". Since english is not my main language and I really didn't knew what that word meant I had to search it and I found this:
 
 ![print5](https://github.com/Leonardo-L04/securnet_writeups/blob/main/img/5.png)
 
@@ -31,6 +31,7 @@ That's when I searched for the word "Epoch". Since my main language is not engli
 
 <h3><strong>✨ C o m m a n d  I n j e c t i o n ✨</strong></h3>
 
-Then basically just used a valid input like "123" and then piped ls into it
+What this program is doing is basically run the command "cal" which stands for calendar.
+Then basically just used a valid input like "123" and then piped "ls" into it and voyla ::)
 
 ![flag](https://github.com/Leonardo-L04/securnet_writeups/blob/main/img/7.png)
