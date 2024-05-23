@@ -3,7 +3,7 @@ I just made an Epoch to Human Readable time converter!
 
 Check it out!
 
-[print1]
+[img/1]
 
 
 <h3>Test the webapp</h3>
