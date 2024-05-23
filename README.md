@@ -3,7 +3,7 @@ I just made an Epoch to Human Readable time converter!
 
 Check it out!
 
-[index page](https://github.com/Leonardo-L04/securnet_writeups/blob/main/img/1.png)
+![index page](https://github.com/Leonardo-L04/securnet_writeups/blob/main/img/1.png)
 
 
 <h3>Test the webapp</h3>
