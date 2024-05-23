@@ -3,14 +3,14 @@ I just made an Epoch to Human Readable time converter!
 
 Check it out!
 
-[https://github.com/Leonardo-L04/securnet_writeups/blob/6603a25933bd383ddac7475ef6777219873f533b/img/1.png]
+[index page](https://github.com/Leonardo-L04/securnet_writeups/blob/main/img/1.png)
 
 
 <h3>Test the webapp</h3>
 Firstly I tested what the webapp did.
 
-[print2]
-[print3]
+[test1](https://github.com/Leonardo-L04/securnet_writeups/blob/main/img/2.png)
+[test2](https://github.com/Leonardo-L04/securnet_writeups/blob/main/img/3.png)
 
 Looks like I does what the name says :D
 
@@ -18,17 +18,17 @@ Looks like I does what the name says :D
 After knowing what it was doing I tried to run sqli and xss payloads. But I was unsuccessfull. 
 All I got that was new was a new error code :')
 
-[print4]
+[example](https://github.com/Leonardo-L04/securnet_writeups/blob/main/img/4.png)
 
 Then after trying to run fuzzing tools and analyzing the website with burpsuite, I went back to read the challenge.
 That's when I searched for the word "Epoch". Since my main language is not english I had to search it and I found this:
 
-[print5]
+[print5](https://github.com/Leonardo-L04/securnet_writeups/blob/main/img/5.png)
 
-[print6]
+[print6](https://github.com/Leonardo-L04/securnet_writeups/blob/main/img/6.png)
 
-C o m m a n d I n j e c t i o n
+✨ C o m m a n d  I n j e c t i o n ✨
 
 Then basically just used a valid input like "123" and then piped ls into it
 
-[print7]
+[flag](https://github.com/Leonardo-L04/securnet_writeups/blob/main/img/7.png)
