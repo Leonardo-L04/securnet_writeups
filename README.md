@@ -31,7 +31,7 @@ That's when I searched for the word "Epoch". Since english is not my main langua
 
 <h3><strong>✨ C o m m a n d  I n j e c t i o n ✨</strong></h3>
 
-What this program is doing is basically run the command "cal" which stands for calendar.
-Then basically just used a valid input like "123" and then piped "ls" into it and voyla ::)
+What this program is doing is basically run the command "cal" which stands for calendar.<br>
+After knowing that I basically just used a valid input like "123" and then piped "ls" into it and voyla ::)
 
 ![flag](https://github.com/Leonardo-L04/securnet_writeups/blob/main/img/7.png)
