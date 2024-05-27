@@ -24,11 +24,15 @@ So this script basically checks the user and password
 
 To verify the user it checks if in the username is equal to the sha-256 hash. In this case the username is 'admin' as said in the challenge description.
 
-`if (sha256(username) === "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918") {`
+`
+if (sha256(username) === "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918") {
+`
 
 To verify the password it converts the specified unicode values into characters which gives the value <strong>a98781de7e7357236c73c5ae7311cbdb</strong>
 
-`if (password === String.fromCharCode(97, 57, 56, 55, 56, 49, 100, 101, 55, 101, 55, 51, 53, 55, 50, 51, 54, 99, 55, 51, 99, 53, 97, 101, 55, 51, 49, 49, 99, 98, 100, 98)) {`
+`
+if (password === String.fromCharCode(97, 57, 56, 55, 56, 49, 100, 101, 55, 101, 55, 51, 53, 55, 50, 51, 54, 99, 55, 51, 99, 53, 97, 101, 55, 51, 49, 49, 99, 98, 100, 98)) {
+`
 
 Then after verifying the inputs it constructs the flag by concatenating the string "flag{" (made here String.fromCharCode(102, 108, 97, 103, 123)) with the password and then closing the bracets with "String.fromCharCode(125)". If the username and password are right the flag will be shown on an alert box.
 
