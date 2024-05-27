@@ -45,7 +45,7 @@ console.log(flag);
 
 <h3>Solving</h3>
 
-So after analyzing the code whe have the username 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918 and the password a98781de7e7357236c73c5ae7311cbdb
+So after analyzing the code we have the username "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918" and the password "a98781de7e7357236c73c5ae7311cbdb"
 
 Since the password is a SHA-256 string you just need to go to a online decrypter like this
 
